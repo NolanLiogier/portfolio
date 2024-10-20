@@ -158,7 +158,21 @@ header img {
     z-index: 10;
   }
   
-  
+  /* carousel */
+  .carousel {
+    position: relative;
+    height: 30vh;
+    top: -0.4rem;
+    font-size: 0.7rem;
+  }
+  .carousel-inner {
+    display: flex;
+    height: 100%;
+    transition: transform 0.5s ease-out;
+  }
+  .carousel-item {
+    min-width: 100%;
+  }
 
   /* carousel header */ 
   .carousel_header {
@@ -169,7 +183,6 @@ header img {
     height: 4rem;
     font-weight: bold;
     border-radius: 0px 0px 10px 10px;
-    font-size: 0.7rem;
   }
   .carousel_title {
     display: flex;
@@ -194,23 +207,6 @@ header img {
     margin-right: 0.8rem;
   }
 
-
-/* carousel */
-.carousel {
-  overflow: hidden;
-  position: relative;
-  height: 30vh;
-  top: -0.4rem;
-}
-.carousel-inner {
-  display: flex;
-  height: 100%;
-  transition: transform 0.5s ease-out;
-}
-.carousel-item {
-  min-width: 100%;
-}
-
 /* carousel body */
 .carousel_body {
   position: relative;
@@ -218,10 +214,16 @@ header img {
   background-color: #181531;
   padding: 1rem;
   margin-top: 1rem;
-  width: 60%;
+  width: 70%;
   left: 50%;
   transform: translateX(-50%);
   border-radius: 10px;
+}
+.carousel_body p {
+  font-size: 0.6rem;
+}
+.carousel_body a {
+  font-size: 0.6rem;
 }
 
 /*Slide boutton*/
@@ -264,7 +266,7 @@ header img {
 /* timeline */
 .timeline {
 position: relative;
-padding-left: 10rem;
+padding-left: 3rem;
 }
 
 .timeline-item {
@@ -277,7 +279,7 @@ position: relative;
 .timeline-circle {
 width: 20px;
 height: 20px;
-background-image: linear-gradient(45deg, #F27121, #E94057, #8A2387);
+background-color: white;
 border-radius: 50%;
 position: absolute;
 left: -2rem;
@@ -286,6 +288,7 @@ z-index: 2;
 
 .timeline-content {
 background-color: #fff;
+color: #000000;
 padding: 15px;
 border-radius: 6px;
 box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -295,8 +298,8 @@ box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 content: "";
 position: absolute;
 width: 3px;
-background-image: linear-gradient(45deg, #F27121, #E94057, #8A2387);
+background-color: white;
 top: 0;
 bottom: 0;
-left: 8.5rem;
+left: 1.5rem;
 }
