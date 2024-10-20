@@ -160,7 +160,7 @@ header img {
   
   
 
-  /* carousel */ 
+  /* carousel header */ 
   .carousel_header {
     display: flex;
     align-items: center;
@@ -190,12 +190,12 @@ header img {
     color: #000000;
     border: 2px solid black;
     padding: 0.4rem;
-    border-radius: 10px;
+    border-radius: 8px;
     margin-right: 0.8rem;
   }
 
 
-/*carousel*/
+/* carousel */
 .carousel {
   overflow: hidden;
   position: relative;
@@ -208,6 +208,19 @@ header img {
 }
 .carousel-item {
   min-width: 100%;
+}
+
+/* carousel body */
+.carousel_body {
+  position: relative;
+  color: white;
+  background-color: #181531;
+  padding: 1rem;
+  margin-top: 1rem;
+  width: 60%;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 10px;
 }
 
 /*Slide boutton*/
@@ -224,7 +237,7 @@ header img {
   transform: translateX(-200%);
 }
 
-/* Style pour les flèches */
+/* nav arrow */
 .carousel-control {
   position: absolute;
   top: 50%;
@@ -243,6 +256,8 @@ header img {
 .carousel-control.next {
   right: 0;
 }
+
+
 
 
 /* timeline */
