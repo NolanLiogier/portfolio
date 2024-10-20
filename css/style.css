@@ -95,8 +95,8 @@ header img {
   .homepage img {
     object-fit: cover;
     width: 100%;
-    height: 100vh;
-    z-index: 0;
+    height: 92vh;
+    z-index: -1;
   }
   .homepage h1 {
     position: absolute;
@@ -118,31 +118,63 @@ header img {
     color: #d5d5d5;
     letter-spacing: 2px;
   }
-  .homepage_info p {
+  .homepage_info {
     position: absolute;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     width: 100%; 
-    bottom: 0;
-    padding: 0.8rem;
-    font-size: 0.8rem;
+    bottom: -4rem;
   }
-  .homepage_info p:nth-child(2){
-    justify-content: flex-end;
+  .homepage_info p {
+    white-space: nowrap;
+    font-size: 0.7rem;
+    padding: 0 0.6rem;
   }
+
+  .homepage_info img {
+    margin-top: 4rem;
+    width: 110px;
+    height: auto;
+    z-index: 10;
+  }
+  
   
 
   /* carousel */ 
   .carousel_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     background-color: #e6e4ff;
-    height: 5rem;
+    height: 4rem;
     font-weight: bold;
+    margin-top: -0.3rem;
+    border-radius: 0px 0px 10px 10px;
+    font-size: 0.7rem;
   }
-
+  .carousel_title {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 100%;
+    margin-left: 0.6rem;
+  }
   .carousel_header hr {
     background: linear-gradient(to right, #000000, #3533cd);
     width: 5rem;
-    height: 0.3rem;
+    height: 0.2rem;
     border: none;
+    margin-top: -1rem;
   }
+  .carousel_header a {
+    text-decoration: none;
+    color: #000000;
+    border: 2px solid black;
+    padding: 0.4rem;
+    border-radius: 10px;
+    margin-right: 0.8rem;
+  }
+
 
   
