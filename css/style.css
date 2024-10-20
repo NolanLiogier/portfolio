@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* header */ 
+header {
+    background-color: #1d0b23;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 3rem;
+}
+
+header img {
+    width: 1.8rem;
+    height: auto;
+    margin-top: 0.2rem;
+    margin-right: 1.5rem;
+}
+  
+/* Sidenav menu */
+#mySidenav {
+    height: 100%;
+    width: 16rem;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: -20rem;
+    background: linear-gradient(135deg, #3533cd, #25003c, #4f0055);
+    border-radius: 0px 20px 20px 0px;
+    font-size: 1.5rem;
+    padding-top: 5rem;
+    transition: left 0.5s ease;
+  }
+  #mySidenav.active {
+    left: 0;
+  }
+  
+  /* Sidenav menu links */
+  #mySidenav a {
+    margin-bottom: 1.5rem;
+    margin-left: 3rem;
+    text-decoration: none;
+    color: white;
+    display: block;
+    transition: 0.3s;
+  }
+  #project_burger_arrow{
+    position: absolute;
+    font-size: 1.2rem;
+    right: 6rem;
+    top: 11.5rem;
+    color: white;
+    transform: rotate(-90deg);
+  }
+  .project_burger_list {
+    margin-top: 2rem;
+    font-size: 1rem;
+    margin-left: 2rem;
+  }
+  
+  #mySidenav nav {
+    list-style-type: none;
+    z-index: 15;
+  }
+  
+  /* Close btn */
+  #mySidenav #closeBtn {
+    position: absolute;
+    top: 0;
+    right: 1.5rem;
+    font-size: 3rem;
+  }
+  
+  /* Icône burger */
+  .burger-icon span {
+    display: block;
+    border-radius: 50px;
+    width: 30px;
+    height: 0.1rem;
+    background-color: white;
+    margin: 7px 0;
+    margin-left: 1.5rem;
+  }
+  
+
+  /*homepage landing*/
+  .homepage {
+    color: white;
+  }
+  .homepage img {
+    object-fit: cover;
+    width: 100%;
+    height: 95vh; 
+    z-index: 0;
+  }
+  .homepage h1 {
+    position: absolute;
+    font-weight: bold;
+    white-space: nowrap;
+    font-size: 2.5rem;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .homepage h2 {
+    position: absolute;
+    white-space: nowrap;
+    font-size: 1rem;
+    top: 54%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #d5d5d5;
+    letter-spacing: 1.5px;
+  }
+  .homepage_info p {
+    position: absolute;
+    display: flex;
+    width: 100%; 
+    bottom: 0;
+    padding: 0.8rem;
+    font-size: 0.8rem;
+  }
+  .homepage_info p:nth-child(2){
+    justify-content: flex-end;
+  }
+  
+
+  /* carousel */ 
+  .carousel_header {
+    background-color: #e6e4ff;
+    height: 5rem;
+    font-weight: bold;
+  }
+
+  .carousel_header hr {
+    background: linear-gradient(to right, #000000, #3533cd);
+    width: 5rem;
+    height: 0.3rem;
+    border: none;
+  }
