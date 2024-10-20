@@ -211,13 +211,15 @@ header img {
 .carousel_body {
   position: relative;
   color: white;
-  background-color: #181531;
-  padding: 1rem;
   margin-top: 1rem;
   width: 70%;
   left: 50%;
   transform: translateX(-50%);
   border-radius: 10px;
+}
+.carousel_body_text{
+  background-color: #181531;
+  padding: 1rem;
 }
 .carousel_body p {
   font-size: 0.6rem;
@@ -246,7 +248,6 @@ header img {
   top: 50%;
   transform: translateY(-50%);
   font-size: 2rem;
-  color: rgb(38, 38, 38);
   padding: 15px;
 }
 .carousel-control:hover {
@@ -269,36 +270,43 @@ position: relative;
 padding-left: 3rem;
 }
 
-.timeline-item {
+.timeline_item {
 display: flex;
 align-items: center;
 margin-bottom: 30px;
 position: relative;
 }
 
-.timeline-circle {
+.timeline_circle {
 width: 20px;
 height: 20px;
-background-color: white;
+background-color: black;
 border-radius: 50%;
 position: absolute;
 left: -2rem;
 z-index: 2;
 }
 
-.timeline-content {
-background-color: #fff;
-color: #000000;
+.timeline_content {
 padding: 15px;
 border-radius: 6px;
 box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.timeline_content1 {
+  background-color: #03004b;
+}
+.timeline_content2 {
+  background-color: #25003c;
+}
+.timeline_content3 {
+  background-color: #4f0055;
 }
 
 .timeline:before {
 content: "";
 position: absolute;
 width: 3px;
-background-color: white;
+background-color: #000000;
 top: 0;
 bottom: 0;
 left: 1.5rem;
