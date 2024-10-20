@@ -163,6 +163,8 @@ header img {
     position: relative;
     height: auto;
     font-size: 0.7rem;
+    overflow: hidden;
+    margin-top: -0.2rem;
   }
   .carousel-inner {
     display: flex;
