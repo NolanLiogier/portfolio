@@ -65,7 +65,7 @@ header img {
   
   #mySidenav nav {
     list-style-type: none;
-    z-index: 15;
+    z-index: 200;
   }
   
   /* Close btn */
@@ -95,7 +95,7 @@ header img {
   .homepage img {
     object-fit: cover;
     width: 100%;
-    height: 87vh;
+    height: 85vh;
     z-index: -1;
   }
   .homepage h1 {
@@ -178,3 +178,119 @@ header img {
 
 
   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*carousel*/
+.carousel {
+  overflow: hidden;
+  position: relative;
+  height: 30vh;
+  top: -1rem;
+}
+.carousel-inner {
+  display: flex;
+  height: 100%;
+  transition: transform 0.5s ease-out;
+}
+.carousel-item {
+  min-width: 100%;
+}
+
+/*Slide boutton*/
+.input_carousel[type="radio"] {
+  display: none;
+}
+.input_carousel:nth-of-type(1):checked ~ .carousel-inner {
+  transform: translateX(0%);
+}
+.input_carousel:nth-of-type(2):checked ~ .carousel-inner {
+  transform: translateX(-100%);
+}
+.input_carousel:nth-of-type(3):checked ~ .carousel-inner {
+  transform: translateX(-200%);
+}
+
+/* Style pour les flèches */
+.carousel-control {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 2rem;
+  color: rgb(38, 38, 38);
+  padding: 15px;
+}
+.carousel-control:hover {
+  background-color: #a0a0a0;
+  border-radius: 10px;
+}
+.carousel-control.prev {
+  left: 0;
+}
+.carousel-control.next {
+  right: 0;
+}
+
+
+/* timeline */
+.timeline {
+position: relative;
+padding-left: 10rem;
+}
+
+.timeline-item {
+display: flex;
+align-items: center;
+margin-bottom: 30px;
+position: relative;
+}
+
+.timeline-circle {
+width: 20px;
+height: 20px;
+background-image: linear-gradient(45deg, #F27121, #E94057, #8A2387);
+border-radius: 50%;
+position: absolute;
+left: -2rem;
+z-index: 2;
+}
+
+.timeline-content {
+background-color: #fff;
+padding: 15px;
+border-radius: 6px;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.timeline:before {
+content: "";
+position: absolute;
+width: 3px;
+background-image: linear-gradient(45deg, #F27121, #E94057, #8A2387);
+top: 0;
+bottom: 0;
+left: 8.5rem;
+}
