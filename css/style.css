@@ -143,7 +143,7 @@ header img {
     justify-content: space-between;
     align-items: center;
     width: 100%; 
-    bottom: -4rem;
+    bottom: -2.5rem;
   }
   .homepage_info p {
     white-space: nowrap;
@@ -152,7 +152,7 @@ header img {
   }
 
   .homepage_info img {
-    margin-top: 4rem;
+    margin-top: 3rem;
     width: 110px;
     height: auto;
     z-index: 10;
@@ -200,6 +200,7 @@ header img {
   overflow: hidden;
   position: relative;
   height: 30vh;
+  top: -0.4rem;
 }
 .carousel-inner {
   display: flex;
