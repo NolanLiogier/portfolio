@@ -145,10 +145,4 @@ header img {
     border: none;
   }
 
-
-  @media (max-width: 700px) {
-    .homepage img {
-      height: 80vh;
-    }
-  }
   
