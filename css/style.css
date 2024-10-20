@@ -22,6 +22,25 @@ header img {
     margin-right: 1.5rem;
 }
   
+  /*Scroll arrow*/
+  .scroll-to-top {
+    z-index: 50;
+    position: fixed;
+    bottom: 15px;   
+    right: 15px;   
+    width: 2.2rem; 
+    height: 2.2rem; 
+    font-size: 20px; 
+    background-color: #333; 
+    opacity: 0.8;
+    color: white; 
+    padding: 2px;
+    border-radius: 50%; 
+    text-align: center; 
+    text-decoration: none;
+    transform: rotate(90deg);
+}
+
 /* Sidenav menu */
 #mySidenav {
     height: 100%;
@@ -149,7 +168,6 @@ header img {
     background-color: #e6e4ff;
     height: 4rem;
     font-weight: bold;
-    margin-top: -0.3rem;
     border-radius: 0px 0px 10px 10px;
     font-size: 0.7rem;
   }
@@ -177,39 +195,11 @@ header img {
   }
 
 
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*carousel*/
 .carousel {
   overflow: hidden;
   position: relative;
   height: 30vh;
-  top: -1rem;
 }
 .carousel-inner {
   display: flex;
