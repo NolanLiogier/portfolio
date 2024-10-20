@@ -161,8 +161,7 @@ header img {
   /* carousel */
   .carousel {
     position: relative;
-    height: 30vh;
-    top: -0.4rem;
+    height: auto;
     font-size: 0.7rem;
   }
   .carousel-inner {
@@ -183,6 +182,7 @@ header img {
     height: 4rem;
     font-weight: bold;
     border-radius: 0px 0px 10px 10px;
+    margin-bottom: 2rem;
   }
   .carousel_title {
     display: flex;
@@ -211,10 +211,10 @@ header img {
 .carousel_body {
   position: relative;
   color: white;
-  margin-top: 1rem;
   width: 70%;
+  top: 35%;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translate(-50%, -50%);
   border-radius: 10px;
 }
 .carousel_body_text{
@@ -261,9 +261,6 @@ header img {
   right: 0;
 }
 
-
-
-
 /* timeline */
 .timeline {
 position: relative;
@@ -273,8 +270,11 @@ padding-left: 3rem;
 .timeline_item {
 display: flex;
 align-items: center;
-margin-bottom: 30px;
+margin-bottom: 1rem;
 position: relative;
+left: 50%;
+transform: translateX(-50%);
+max-width: 15rem;
 }
 
 .timeline_circle {
@@ -282,7 +282,7 @@ width: 20px;
 height: 20px;
 background-color: black;
 border-radius: 50%;
-position: absolute;
+position: relative;
 left: -2rem;
 z-index: 2;
 }
@@ -301,13 +301,40 @@ box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 .timeline_content3 {
   background-color: #4f0055;
 }
+.timeline_circle::before {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 7rem;
+  background-color: #000000;
+  top: -2.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: -1; 
+}
 
-.timeline:before {
-content: "";
-position: absolute;
-width: 3px;
-background-color: #000000;
-top: 0;
-bottom: 0;
-left: 1.5rem;
+
+
+.section_header {
+  display: flex;
+  align-items: start;
+  justify-content: space-evenly;
+  flex-direction: column;
+
+  background-color: #e6e4ff;
+  height: 4rem;
+  font-weight: bold;
+
+  border-radius: 10px 10px 0px 0px;
+  font-size: 0.7rem;
+}
+.section_header h3{
+  margin-left: 0.6rem;
+}
+.section_header hr{
+  background: linear-gradient(to right, #000000, #3533cd);
+  width: 5rem;
+  height: 0.2rem;
+  border: none;
+  margin-left: 0.6rem;
 }
