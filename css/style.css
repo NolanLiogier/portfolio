@@ -377,7 +377,7 @@ box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 
 .contact_section_body {
   display: flex;
-  height: 45vh;
+  height: 50vh;
   flex-direction: column;
   background-color: #1d0b23;
   color: white;
