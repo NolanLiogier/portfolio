@@ -193,7 +193,7 @@ header img {
     justify-content: space-around;
     flex-direction: column;
     height: 100%;
-    margin-left: 0.6rem;
+    margin-left: 1rem;
   }
   .carousel_header hr {
     background: linear-gradient(to right, #000000, #3533cd);
@@ -327,19 +327,18 @@ box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   z-index: 5;
 }
 .section_header h3{
-  margin-left: 0.6rem;
+  margin-left: 1rem;
 }
 .section_header hr{
   background: linear-gradient(to right, #000000, #3533cd);
   width: 5rem;
   height: 0.2rem;
   border: none;
-  margin-left: 0.6rem;
+  margin-left: 1rem;
 }
 
 .project_section_body {
   display: flex;
-  text-align: center;
   flex-direction: column;
   background-color: #1d0b23;
   margin-bottom: 5rem;
@@ -352,12 +351,14 @@ box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   background: linear-gradient(135deg, #3533cd, #25003c, #4f0055);
   color: white;
   margin: auto;
-  margin-top: 5rem;
+  margin-top: 2.5rem;
   border-radius: 10px;
 
   display: flex;
   flex-direction: column;
+  justify-content: left;
 }
+
 .project_section_body section:nth-child(4) {
   margin-bottom: 6rem;
 }
@@ -373,33 +374,71 @@ box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .project_section_body h3 {
-  position: relative;
-  top: 10%;
-  left: 20%;
-  transform: translate(-50%, -50%);
+  font-size: 1.5rem;
+  margin-left: 1rem;
 }
 
+.project_section_body p {
+  font-size: 1rem;
+  margin-left: 1rem;
+}
 
-
-.contact_section_body {
+.footer_body {
   display: flex;
-  height: 50vh;
   flex-direction: column;
   background-color: #1d0b23;
   color: white;
 }
 
-.contact_section_body h3 {
-  position: relative;
-  top: 2rem;
-  left: 2rem;
-  width: 90%;
+.navigation_footer nav, .contact_footer nav{
+  display: flex;
+  flex-direction: column;
 }
 
-.contact_section_body p {
+.navigation_footer nav a, .contact_footer nav a{
+  text-decoration: none;
+  color: white;
+}
+
+.footer_top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.footer_bottom {
+  margin-top: 3rem;
+}
+
+.navigation_footer {
+  margin-left: 2rem;
+}
+.navigation_footer nav a{
+  margin-top: 0.5rem;
+}
+#navigation_footer_arrow {
   position: relative;
-  width: 90%;
-  top: 4rem;
-  left: 2rem;
-  margin-bottom: 2rem;
+  top: -4.7rem;
+  left: 1rem;
+  transform: rotate(-90deg);
+}
+.navigation_footer_list {
+  position: relative;
+  top: -1rem;
+  left: 1.5rem;
+}
+
+.contact_footer {
+  margin-right: 3rem;
+}
+.contact_footer nav a{
+  margin-top: 1rem;
+}
+
+.more_about_me_footer {
+  margin-left: 2rem;
+}
+.more_about_me_footer h3, .more_about_me_footer p {
+  margin-bottom: 1rem;
 }
