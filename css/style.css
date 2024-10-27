@@ -72,7 +72,7 @@ header img {
     position: absolute;
     font-size: 1.2rem;
     right: 6rem;
-    top: 11.5rem;
+    top: 15.9rem;
     color: white;
     transform: rotate(-90deg);
   }
@@ -215,7 +215,6 @@ header img {
 .carousel_body {
   position: relative;
   color: white;
-  width: 70%;
   top: 35%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -224,10 +223,23 @@ header img {
 .carousel_body_text{
   background-color: #181531;
   padding: 1rem;
+  width: 70%;
+  max-width: 30rem;
 }
+.carousel_body_text h3{
+  margin-bottom: 1rem;
+}
+.carousel_body_text p{
+  margin-bottom: 1rem;
+}
+.carousel_body_text a{
+  font-style: italic;
+}
+
 .carousel_body p {
   font-size: 0.6rem;
 }
+
 .carousel_body a {
   font-size: 0.6rem;
 }
@@ -274,28 +286,36 @@ padding-left: 3rem;
 .timeline_item {
 display: flex;
 align-items: center;
-margin-bottom: 1rem;
 position: relative;
-left: 50%;
+width: 70%;
+max-width: 25rem;
+left: 47%;
 transform: translateX(-50%);
-max-width: 15rem;
-height: 9rem;
+margin-bottom: 1rem;
 }
 
 .timeline_circle {
-width: 80px;
+width: 20px;
 height: 20px;
 background-color: black;
 border-radius: 50%;
 position: relative;
-left: -2rem;
-z-index: 2;
+left: -1.95rem;
 }
 
 .timeline_content {
-padding: 15px;
-border-radius: 6px;
-box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  border-radius: 6px;
+  width: 100%;
+}
+.timeline_content h4 {
+  color: #a0a0a0;
+}
+.timeline_content p:first-of-type {
+  font-style: italic;
+}
+.timeline_content h4, .timeline_content p{
+  margin-bottom: 0.4rem;
 }
 .timeline_content1 {
   background-color: #03004b;
@@ -307,7 +327,7 @@ box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   background-color: #4f0055;
 }
 .timeline_line {
-  height: 10rem;
+  height: 8.5rem;
   width: 0.4rem;
   position: absolute; 
   left: -1.55rem;
@@ -335,6 +355,10 @@ box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   height: 0.2rem;
   border: none;
   margin-left: 1rem;
+}
+
+.project_section {
+  margin-top: -4rem;
 }
 
 .project_section_body {
