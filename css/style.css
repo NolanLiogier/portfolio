@@ -227,6 +227,7 @@
 #popup p {
   margin-bottom: 1rem;
   width: 80%;
+  margin-left: 40vw;
 }
 #popup button {
   width: 6rem;
@@ -244,9 +245,19 @@
     height: 5.2rem;
   }
   .footer_top {
-    justify-content: space-around;
+    justify-content: space-between;
+    width: 40vw;
+    margin-bottom: 4rem;
   }
   .more_about_me_footer {
     margin-left: 22%;
+  }
+  .footer_body {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+  }
+  .footer_bottom {
+    margin-top: 2rem;
   }
 }
