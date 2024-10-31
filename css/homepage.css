@@ -35,7 +35,7 @@
     justify-content: space-between;
     align-items: center;
     width: 100%; 
-    bottom: -3.2rem;
+    bottom: -2.8rem;
   }
   .homepage_info p {
     white-space: nowrap;
@@ -44,7 +44,7 @@
   }
 
   .homepage_info img {
-    margin-top: 4.8rem;
+    margin-top: 4.4rem;
     width: 110px;
     height: auto;
     z-index: 10;
