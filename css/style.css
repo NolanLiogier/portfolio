@@ -176,6 +176,9 @@
 .navigation_footer nav a{
   margin-top: 0.5rem;
 }
+.navigation_footer nav img{
+  color: white;
+}
 #navigation_footer_arrow {
   position: relative;
   top: -4.7rem;
@@ -191,51 +194,21 @@
 .contact_footer {
   margin-right: 3rem;
 }
-.contact_footer nav a{
-  margin-top: 1rem;
+.contact_footer_list a{
+  margin-top: 1.5rem;
+  position: relative;
 }
-
+.contact_footer_list img{
+  position: absolute;
+  margin-left: 1rem;
+  height: 1.5rem;
+  width: auto;
+}
 .more_about_me_footer {
   margin-left: 1.5rem;
 }
 .more_about_me_footer h3, .more_about_me_footer p {
   margin-bottom: 1rem;
-}
-
-
-/*Popup*/
-#popup {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  background: rgba(0, 0, 0, 0.8);
-  color: #fff;
-  z-index: 50;
-}
-#popup hr {
-  width: 40%;
-}
-#popup h3, #popup hr {
-  margin-bottom: 2rem;
-}
-#popup p {
-  margin-bottom: 1rem;
-  width: 80%;
-}
-#popup button {
-  width: 6rem;
-  margin-top: 1rem;
-  border: solid 2px white;
-  border-radius: 10px;
-  padding: 0.6rem;
-  color: white;
-  background-color: rgba(0, 0, 0, 0.8);
 }
 
 
@@ -258,8 +231,5 @@
   }
   .footer_bottom {
     margin-top: 2rem;
-  }
-  #popup p {
-    margin-left: 40vw;
   }
 }
