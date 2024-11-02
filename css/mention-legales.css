@@ -1,0 +1,42 @@
+.mention-legales-main {
+    background-color: gray;
+    height: auto;
+    padding: 8rem 0;
+}   
+
+.mention-legales-section {
+    position: relative;
+    width: 70%;
+    left: 50%;
+    transform: translateX(-50%);
+
+    display: flex;      
+    flex-direction: column;     
+    justify-content: center;  
+    align-items: left;      
+
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+.mention-legales-section hr {
+    margin-top: 1rem;
+    height: 0.2rem;
+    background: black;
+    border: none;
+    width: 90%;
+
+}
+.mention-legales-section h2{
+    margin: 2rem 0;
+    width: 90%;
+}
+.mention-legales-section p  {
+    margin-bottom: 1rem;
+    width: 90%;
+}
+.mention-legales-section li {
+    margin-left: 2rem;
+    width: 90%;
+}
