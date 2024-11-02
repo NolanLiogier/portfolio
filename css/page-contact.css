@@ -1,0 +1,45 @@
+.contact_main {
+    background: gray;
+    height: 100vh;
+}
+
+.contact_section {
+    position: relative;
+    width: 60%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    display: flex;           
+    justify-content: center;  
+    align-items: center;      
+
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.contact_section h2 {
+    margin-bottom: 2rem;
+}
+
+.contact_section h2:nth-last-child(2) { /* Spécifiez un argument pour nth-last-child */
+    margin-bottom: 3.5rem;
+}
+
+.contact_section a {
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+    padding: 1rem;
+    background-color: #1d0b23;
+    border-radius: 10px;
+    transition: background-color 0.3s; 
+}
+
+.contact_section a:hover {
+    background-color: #858585; 
+}
+
