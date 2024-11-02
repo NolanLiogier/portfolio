@@ -11,26 +11,52 @@
     border-radius: 0px 0px 10px 10px;
   }
   
-  .project_section_body section {
+  .project-card {
     height: 19rem;
     width: 65%;
     max-width: 35rem;
-    background: linear-gradient(135deg, #3533cd, #25003c, #4f0055);
-    color: white;
+    
     margin: auto;
     margin-top: 2.5rem;
-    border-radius: 10px;
   
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
+    perspective: 200rem;
   }
   
-  .project_section_body section:nth-child(4) {
+  .project-card:nth-child(4) {
     margin-bottom: 2rem;
   }
   
-  .project_section_body img {
+  .project-card-inner {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 1s;
+  }
+  .project-card:hover .project-card-inner {
+    transform: rotateY(180deg);
+  }
+  .project-card-front,
+  .project-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    color: white;
+  }
+
+
+
+  .project-card-front {
+    background: linear-gradient(135deg, #3533cd, #25003c, #4f0055);
+    transform: rotateY(0deg);
+  }
+  .project-card-front img {
     position: relative;
     top: 35%;
     left: 50%;
@@ -39,17 +65,21 @@
     width: 200px;
     opacity: 0.1;
   }
-  
-  .project_section_body h3 {
+  .project-card-front h3 {
     font-size: 1.5rem;
     margin-left: 1rem;
     margin-bottom: 0.5rem;
   }
-  
-  .project_section_body p {
+  .project-card-front p {
     font-size: 1rem;
     margin-left: 1rem;
     width: 90%;
   }
 
+
+
+  .project-card-back {
+    transform: rotateY(180deg);
+    background-color: aliceblue;
+  }
   
