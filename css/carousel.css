@@ -78,11 +78,11 @@
 }
 
 .carousel_body p {
-  font-size: 0.6rem;
+  font-size: 0.8rem;
 }
 
 .carousel_body a {
-  font-size: 0.6rem;
+  font-size: 0.7rem;
 }
 
 /*Slide boutton*/
@@ -124,6 +124,7 @@
 /* timeline */
 .timeline {
 position: relative;
+top: 1.5rem;
 padding-left: 3rem;
 }
 
@@ -131,7 +132,7 @@ padding-left: 3rem;
 display: flex;
 align-items: center;
 position: relative;
-height: 8rem;
+height: 11rem;
 width: 70%;
 max-width: 25rem;
 left: 47%;
@@ -172,7 +173,7 @@ left: -1.95rem;
   background-color: #4f0055;
 }
 .timeline_line {
-  height: 9rem;
+  height: 12rem;
   width: 0.4rem;
   position: absolute; 
   left: -1.55rem;
