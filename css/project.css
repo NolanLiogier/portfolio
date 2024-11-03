@@ -11,8 +11,8 @@
   }
   .project-card {
     position: relative;
-    height: 25rem;
-    width: 65%;
+    height: 30rem;
+    width: 75%;
     max-width: 35rem;
     margin: auto;
     margin-top: 2.5rem;
@@ -28,7 +28,7 @@
     width: 2rem;
     height: 2rem;
     border-radius: 50%;
-    background: white;
+    background: #e6e4ff;
     border: none;
     cursor: pointer;
     font-weight: bold;
@@ -53,7 +53,7 @@
   }
   .project-card-front img {
     position: relative;
-    top: 40%;
+    top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
     height: 15rem;
@@ -61,7 +61,7 @@
     opacity: 0.1;
   }
   .project-card-front h3 {
-    margin-top: 3rem;
+    margin-top: 8rem;
     font-size: 1.5rem;
     margin-left: 1rem;
     margin-bottom: 0.5rem;
@@ -102,14 +102,14 @@
     top: 1rem;
     left: 1.5rem;
     margin-bottom: 0.5rem;
-    width: 90%;
+    width: 80%;
   }
 
   .project-card-back li {
     position: relative;
     top: 1rem;
     left: 2.5rem;
-    width: 90%;
+    width: 80%;
   }
 
   .project-card-inner.active .project-card-back {

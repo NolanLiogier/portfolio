@@ -200,12 +200,14 @@
 }
 .contact_footer_list img{
   position: absolute;
+  margin-top: -0.1rem;
   margin-left: 1rem;
   height: 1.5rem;
   width: auto;
 }
 .more_about_me_footer {
   margin-left: 1.5rem;
+  margin-bottom: 5rem;
 }
 .more_about_me_footer h3, .more_about_me_footer p {
   margin-bottom: 1rem;
