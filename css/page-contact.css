@@ -20,11 +20,11 @@
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
 }
 
-.contact_section h2 {
+.contact_section h4 {
     margin-bottom: 2rem;
 }
 
-.contact_section h2:nth-last-child(2) { /* Spécifiez un argument pour nth-last-child */
+.contact_section h4:nth-last-child(2) { /* Spécifiez un argument pour nth-last-child */
     margin-bottom: 3.5rem;
 }
 
@@ -33,6 +33,7 @@
     cursor: pointer;
     font-weight: bold;
     color: white;
+    font-size: 0.8rem;
     padding: 1rem;
     background-color: #1d0b23;
     border-radius: 10px;

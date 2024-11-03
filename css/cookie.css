@@ -1,0 +1,32 @@
+.cookie-banner {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 85%;
+    max-width: 40rem;
+    display: flex;
+    flex-direction: column;
+    background-color: #272727;
+    border-radius: 1rem;
+    color: white;
+    padding: 1rem;
+    z-index: 200;
+}
+
+.cookie-banner h2, .cookie-banner p, .cookie-banner button {
+    margin-bottom: 1rem;
+}
+
+.cookie-banner button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 0.5rem;
+}
+
+#decline-cookie {
+    background-color: #e74c3c; 
+}

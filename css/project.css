@@ -19,7 +19,7 @@
     overflow: hidden;
   }
   .project-card:nth-child(4) {
-    margin-bottom: 2rem;
+    margin-bottom: 5rem;
   }
   .project-toggle-button {
     position: absolute;
