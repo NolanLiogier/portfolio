@@ -216,7 +216,7 @@
 }
 
 
-@media (min-width: 570px) {
+@media (min-width: 720px) {
   .section_header {
     height: 5.2rem;
   }

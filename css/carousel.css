@@ -181,7 +181,7 @@ left: -1.95rem;
   z-index: 1;
 }
 
-@media (min-width: 570px) {
+@media (min-width: 720px) {
   .carousel_header {
     height: 5.2rem;
   }
