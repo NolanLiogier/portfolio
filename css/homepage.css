@@ -13,7 +13,7 @@
     position: absolute;
     font-weight: bold;
     white-space: nowrap;
-    font-size: 1rem;
+    font-size: 2.8rem;
     top: 46%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -21,7 +21,7 @@
   .homepage h2 {
     position: absolute;
     white-space: nowrap;
-    font-size: 0.5em;
+    font-size: 1.1rem;
     font-weight: 100;
     top: 54%;
     left: 50%;
@@ -35,7 +35,7 @@
     justify-content: space-between;
     align-items: center;
     width: 100%; 
-    bottom: -3.5rem;
+    margin-top: -7.5rem;
   }
   .homepage_info p {
     white-space: nowrap;
@@ -44,8 +44,8 @@
   }
 
   .homepage_info img {
-    margin-top: 4.4rem;
     width: 110px;
     height: auto;
     z-index: 10;
+    margin-top: 4rem;
   }
