@@ -215,25 +215,3 @@
   margin-bottom: 1rem;
 }
 
-
-@media (min-width: 720px) {
-  .section_header {
-    height: 5.2rem;
-  }
-  .footer_top {
-    justify-content: space-between;
-    width: 40vw;
-    margin-bottom: 4rem;
-  }
-  .more_about_me_footer {
-    margin-left: 22%;
-  }
-  .footer_body {
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
-  }
-  .footer_bottom {
-    margin-top: 2rem;
-  }
-}

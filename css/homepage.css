@@ -49,31 +49,3 @@
     height: auto;
     z-index: 10;
   }
-  
-  @media (min-width: 720px) {
-    .homepage h1 {
-      font-size: 5rem;
-      letter-spacing: 0.2rem;
-      top: 35%;
-      transform: translateX(-50%);
-    }
-    .homepage h2 {
-      font-size: 1.85rem;
-      letter-spacing: 0.5rem;
-      top: 52%;
-      left: 50.3%;
-      transform: translate(-50%, -50%);
-    }
-    .homepage_info {
-      bottom: -4.5rem;
-    }
-    .homepage_info p{
-      font-size: 1rem;
-      padding: 1rem;
-    }
-    .homepage_info img {
-      margin-top: 4.8rem;
-      width: 150px;
-      height: auto;
-    }
-  }

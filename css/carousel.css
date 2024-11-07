@@ -180,24 +180,3 @@ left: -1.95rem;
   left: -1.55rem;
   z-index: 1;
 }
-
-@media (min-width: 720px) {
-  .carousel_header {
-    height: 5.2rem;
-  }
-  .carousel_header a {
-   font-size: 0.8rem; 
-   margin-right: 1.2rem;
-  }
-  .carousel_body {
-    top: 33.6%;
-  }
-  .carousel-control.prev {
-    font-size: 2.5rem;
-    left: 1rem;
-  }
-  .carousel-control.next {
-    font-size: 2.5rem;
-    right: 1rem;
-  }
-}
