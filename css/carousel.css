@@ -133,7 +133,7 @@ padding-left: 3rem;
 display: flex;
 align-items: center;
 position: relative;
-height: 11rem;
+height: 13rem;
 width: 70%;
 max-width: 25rem;
 left: 47%;
@@ -174,7 +174,7 @@ left: -1.95rem;
   background-color: #4f0055;
 }
 .timeline_line {
-  height: 12rem;
+  height: 16rem;
   width: 0.4rem;
   position: absolute; 
   left: -1.55rem;
