@@ -11,7 +11,7 @@
   }
   .project-card {
     position: relative;
-    height: 35rem;
+    height: 32rem;
     width: 75%;
     max-width: 35rem;
     margin: auto;
@@ -56,8 +56,8 @@
     top: 5rem;
     left: 50%;
     transform: translateX(-50%);
-    height: 18rem;
-    width: 18rem;
+    height: 16rem;
+    width: 16rem;
     opacity: 0.1;
   }
   .project-card-front h3 {
