@@ -14,18 +14,19 @@
   .main-title {
     position: absolute;
     text-align: center;
-    top: 45%;
+    top: 40%;
     left: 50%;
   }
   .homepage h1 {
     font-weight: bold;
     white-space: nowrap;
-    font-size: 6vw;
+    font-size: 8vw;
     transform: translate(-50%, -50%);
+    margin-bottom: 1.5rem;
   }
   .homepage h2 {
     white-space: nowrap;
-    font-size: 2.4vw;
+    font-size: 3vw;
     font-weight: 100;
     transform: translate(-50%, -50%);
     color: #d5d5d5;
