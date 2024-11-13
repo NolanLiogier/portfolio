@@ -18,6 +18,7 @@
     left: 50%;
   }
   .homepage h1 {
+    margin: 0;
     font-weight: bold;
     white-space: nowrap;
     font-size: 2rem;
@@ -25,6 +26,7 @@
     margin-bottom: 1rem;
   }
   .homepage h2 {
+    margin: 0;
     white-space: nowrap;
     font-size: 0.8rem;
     font-weight: 100;
