@@ -53,12 +53,4 @@
     margin-top: 4rem;
   }
 
-  @media (min-width: 9000px) {
-    .homepage h1 {
-      font-size: 4rem;
-    }
-    .homepage h2 {
-      font-size: 1.8rem;
-    }
-  }
 
