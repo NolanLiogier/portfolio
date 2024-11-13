@@ -14,19 +14,19 @@
   .main-title {
     position: absolute;
     text-align: center;
-    top: 40%;
+    top: 45%;
     left: 50%;
   }
   .homepage h1 {
     font-weight: bold;
     white-space: nowrap;
-    font-size: 10vw;
+    font-size: 2rem;
     transform: translate(-50%, -50%);
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
   }
   .homepage h2 {
     white-space: nowrap;
-    font-size: 4vw;
+    font-size: 0.8rem;
     font-weight: 100;
     transform: translate(-50%, -50%);
     color: #d5d5d5;
@@ -52,3 +52,13 @@
     z-index: 10;
     margin-top: 4rem;
   }
+
+  @media (min-width: 800px) {
+    .homepage h1 {
+      font-size: 4rem;
+    }
+    .homepage h2 {
+      font-size: 1.8rem;
+    }
+  }
+
