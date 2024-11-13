@@ -2,8 +2,8 @@
   /*homepage landing*/
   .homepage {
     color: white;
-    height: 93vh;
-    min-height: 20rem;
+    height: 95vh;
+    min-height: 30rem;
   }
   .homepage img {
     object-fit: cover;
@@ -11,25 +11,22 @@
     height: 100%;
     z-index: -1;
   }
-  .main-title {
-    position: absolute;
-    text-align: center;
-    top: 45%;
-    left: 50%;
-  }
   .homepage h1 {
-    margin: 0;
+    position: absolute;
     font-weight: bold;
     white-space: nowrap;
-    font-size: 2rem;
+    font-size: 1.9rem;
+    top: 46%;
+    left: 50%;
     transform: translate(-50%, -50%);
-    margin-bottom: 1rem;
   }
   .homepage h2 {
-    margin: 0;
+    position: absolute;
     white-space: nowrap;
-    font-size: 0.8rem;
+    font-size: 0.75rem;
     font-weight: 100;
+    top: 54%;
+    left: 50%;
     transform: translate(-50%, -50%);
     color: #d5d5d5;
     letter-spacing: 2px;
@@ -54,5 +51,3 @@
     z-index: 10;
     margin-top: 4rem;
   }
-
-
